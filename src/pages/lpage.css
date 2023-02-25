@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded&display=swap');
+body{
+    font-family: 'Unbounded',sans-serif;
+}
+#start-playing-text{
+    color: black;
+    font-size: 30px; 
+}
+.contain{
+    font-size: 80px;
+}
+.big-title h1{
+    font-size: 90px;
+    margin-top: 40px;
+}
+.big-title{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    line-height: 1.8;
+}
+#start-playing-btn{
+    padding: 12px 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 0.9rem;
+    /* background-color: #420828; */
+    background-color: #080842;
+    border-radius: 35px;
+}
+.console{
+    width: 600px;
+    padding-bottom: 50px;
+}
