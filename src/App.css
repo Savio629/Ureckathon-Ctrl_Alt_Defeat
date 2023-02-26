@@ -188,13 +188,13 @@ top: 100px;
   animation-duration: 800ms;
 }
 
-.buttons {
+/* .buttons {
   
   position: relative;
   margin-left: 400px;
   margin: 20px;
  
-}
+} */
 
 .buttons button {
   left: 30%;
