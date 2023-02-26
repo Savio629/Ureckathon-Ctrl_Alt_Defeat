@@ -1,40 +1,100 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .App {
-    font-family: sans-serif;
-    width: 100%;
-    min-height: 100vh;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  font-family: sans-serif;
+  width: 100%;
+  min-height: 100vh;
+}
 .App .navbar {
-    width: 100%;
-    min-height: 10vh;
-    padding-top: 20px;
-    align-items: center;
-    color: #6d3435;
-    background: transparent;
-  }
-  
-  .App .navbar .nav-links {
-    width: 40%;
-    display: flex;
-    padding-right: 20px;
-    float: right;
-    justify-content: space-around;
-    list-style: none;
-    font-weight: bold;
-  }
-  
-  .App .navbar .nav-links>a{
-    color: #6d3435;
-    text-decoration: none;
-  }
-  .logo {
-    padding-left: 40px;
-    float : left;
-    font-size: 3ch;
-    font-weight: bolder;
-  }
- 
+  width: 100%;
+  min-height: 10vh;
+  padding-top: 20px;
+  align-items: center;
+  color: #6d3435;
+  background: transparent;
+}
+
+.App .navbar .nav-links {
+  width: 40%;
+  display: flex;
+  padding-right: 15px;
+  float: right;
+  justify-content: space-around;
+  list-style: none;
+  font-weight: bold;
+}
+
+.App .navbar .nav-links>a{
+  color: #6d3435;
+  text-decoration: none;
+  padding-right: 5px;
+  padding-left: 0px;
+  padding-bottom: 3px;
+}
+.App .navbar .nav-links>a:hover {
+  color: #ea7779;
+  /* text-decoration: underline; */
+  -webkit-text-stroke: 0.2px black;
+
+}
+.logo {
+  padding-left: 40px;
+  float : left;
+  font-size: 3ch;
+  font-weight: bolder;
+}
+.loginb{
+
+position: relative;
+top: -6px;
+appearance: none;
+background-color: #f28d92;
+border: 0.2px solid #fff;
+border-radius: 15px;
+box-sizing: border-box;
+color: #6d3435;
+cursor: pointer;
+
+font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 13px;
+font-weight: 800;
+line-height: normal;
+min-height: 30px;
+min-width: 0;
+outline: none;
+padding: 5px 5px;
+text-align: center;
+text-decoration: none;
+transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: 12%;
+height:auto;
+will-change: transform;
+}
+
+
+.loginb:disabled {
+pointer-events: none;
+}
+
+.loginb:hover {
+box-shadow: rgba(255, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+background-color: #fda7ab;
+}
+
+.loginb:active {
+box-shadow: none;
+transform: translateY(0);
+}
+.emailid{
+position: absolute;
+top: 50px;
+right: 14px;
+text-decoration: underline;
+}
