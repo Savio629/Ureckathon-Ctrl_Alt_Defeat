@@ -22,6 +22,9 @@ p{
     padding-left: 50px;
     text-shadow: 1px 1px 1px rgb(102, 102, 102), 2px 2px 1px rgb(102, 102, 102);
 }
+h2{
+  text-shadow: 1px 1px 1px rgb(102, 102, 102), 2px 2px 1px rgb(102, 102, 102);
+}
 .mainh2{
     position: absolute;
     top: 200px;

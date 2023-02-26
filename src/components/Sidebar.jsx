@@ -8,7 +8,7 @@ export default function Nav(){
   const {user, loginWithRedirect , isAuthenticated, logout} = useAuth0();
   return(
         <div className="navbar">
-          <div className="logo">MindShine</div>
+          <div className="logo"></div>
            <ul className="nav-links">
               <Link to="/">Home</Link>
               <Link to="/calendar">Calendar</Link>
