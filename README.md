@@ -3,6 +3,7 @@
 Theme : Health-Tech
 
 Live Demo : https://sunny-cocada-bfb97c.netlify.app/
+Video Link : https://youtu.be/SDZVesI43Vg
 ## What is Mindshine  :
 >A project primarily focussing on Mental Health issues faced by humans on daily basis
 >A website that makes it easier for you to monitor how you feel, your change in emotions and the problems you face cause of your improper Mental Health.
